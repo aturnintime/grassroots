@@ -20,16 +20,12 @@
             "de4a85e9-de27-4977-ab00-c4ef5f1251d2",
             "9aece1df-ac4f-44a6-8b0c-12a7f6a1fb21"
         ],
-        "top": [
-            "094cbc03-d088-4b3c-8361-977733540ae8"
-        ],
+        "top": [],
         "content": [
-            "578243cf-a4c8-46ad-9504-04aaf4ec9ccc"
+            "f3d6e3a6-c1e6-4ca8-bc46-70382e0676cb"
         ],
         "bottom": [],
-        "footer": [
-            "d6903155-4ad7-46d3-9300-e628fd337f06"
-        ],
+        "footer": [],
         "title": []
     },
     "content": {
@@ -91,79 +87,21 @@
                 }
             }
         },
-        "094cbc03-d088-4b3c-8361-977733540ae8": {
-            "plugin": "layout:hero",
+        "f3d6e3a6-c1e6-4ca8-bc46-70382e0676cb": {
+            "plugin": "layout:custom_block",
             "data": {
                 "module": "layout",
-                "delta": "hero",
+                "delta": "custom_block",
                 "settings": {
                     "title_display": "default",
                     "title": "",
                     "style": "default",
                     "block_settings": [],
                     "contexts": [],
-                    "content": "<p>Serving the Logmeadow, MA community since 1863</p>\r\n",
-                    "format": "filtered_html",
-                    "image": null,
-                    "image_path": null
+                    "content": "<div class=\"content-header\">\r\nContact us for a Quote Today\r\n</div>\r\n\r\n<div class=\"gr-packages\">\r\n  <div class=\"gr-fall-clean-up\">\r\n    Fall Clean Up\r\n  </div>\r\n  <div class=\"gr-fall-clean-up\">\r\n    Lawn Maintenance\r\n  </div>\r\n  <div class=\"gr-fall-clean-up\">\r\n    Snow Plowing\r\n  </div>\r\n</div>",
+                    "format": "full_html"
                 },
-                "uuid": "094cbc03-d088-4b3c-8361-977733540ae8",
-                "style": {
-                    "plugin": "default",
-                    "data": {
-                        "settings": {
-                            "classes": ""
-                        }
-                    }
-                }
-            }
-        },
-        "578243cf-a4c8-46ad-9504-04aaf4ec9ccc": {
-            "plugin": "views:promoted-block",
-            "data": {
-                "module": "views",
-                "delta": "promoted-block",
-                "settings": {
-                    "link_to_view": null,
-                    "more_link": false,
-                    "use_pager": true,
-                    "pager_id": 0,
-                    "items_per_page": 10,
-                    "offset": 0,
-                    "path": "rss.xml",
-                    "fields_override": null,
-                    "title_display": "default",
-                    "title": "",
-                    "style": "default",
-                    "block_settings": [],
-                    "contexts": [],
-                    "allowed": [],
-                    "path_override": false
-                },
-                "uuid": "578243cf-a4c8-46ad-9504-04aaf4ec9ccc",
-                "style": {
-                    "plugin": "default",
-                    "data": {
-                        "settings": {
-                            "classes": ""
-                        }
-                    }
-                }
-            }
-        },
-        "d6903155-4ad7-46d3-9300-e628fd337f06": {
-            "plugin": "system:powered-by",
-            "data": {
-                "module": "system",
-                "delta": "powered-by",
-                "settings": {
-                    "title_display": "default",
-                    "title": "",
-                    "style": "default",
-                    "block_settings": [],
-                    "contexts": []
-                },
-                "uuid": "d6903155-4ad7-46d3-9300-e628fd337f06",
+                "uuid": "f3d6e3a6-c1e6-4ca8-bc46-70382e0676cb",
                 "style": {
                     "plugin": "default",
                     "data": {

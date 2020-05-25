@@ -20,17 +20,13 @@
             "12d2a5dc-206a-4404-af30-480b4ec22833",
             "13b2f325-af26-40bb-8c61-97fe1d93f19f"
         ],
-        "top": [
-            "09f11b4e-877e-45ab-9000-a4c6254faa04"
-        ],
+        "top": [],
         "content": [
             "default"
         ],
         "sidebar": [],
         "bottom": [],
-        "footer": [
-            "cd4d033d-3f67-4191-8655-85ee758877c0"
-        ],
+        "footer": [],
         "title": []
     },
     "content": {
@@ -43,7 +39,8 @@
                     "title_display": "default",
                     "style": "default",
                     "block_settings": [],
-                    "contexts": []
+                    "contexts": [],
+                    "title": ""
                 },
                 "uuid": "12d2a5dc-206a-4404-af30-480b4ec22833",
                 "style": {
@@ -83,29 +80,6 @@
                 }
             }
         },
-        "09f11b4e-877e-45ab-9000-a4c6254faa04": {
-            "plugin": "system:breadcrumb",
-            "data": {
-                "module": "system",
-                "delta": "breadcrumb",
-                "settings": {
-                    "title_display": "default",
-                    "title": "",
-                    "style": "default",
-                    "block_settings": [],
-                    "contexts": []
-                },
-                "uuid": "09f11b4e-877e-45ab-9000-a4c6254faa04",
-                "style": {
-                    "plugin": "default",
-                    "data": {
-                        "settings": {
-                            "classes": ""
-                        }
-                    }
-                }
-            }
-        },
         "default": {
             "plugin": "system:main",
             "data": {
@@ -119,29 +93,6 @@
                     "contexts": []
                 },
                 "uuid": "default",
-                "style": {
-                    "plugin": "default",
-                    "data": {
-                        "settings": {
-                            "classes": ""
-                        }
-                    }
-                }
-            }
-        },
-        "cd4d033d-3f67-4191-8655-85ee758877c0": {
-            "plugin": "system:powered-by",
-            "data": {
-                "module": "system",
-                "delta": "powered-by",
-                "settings": {
-                    "title_display": "default",
-                    "title": "",
-                    "style": "default",
-                    "block_settings": [],
-                    "contexts": []
-                },
-                "uuid": "cd4d033d-3f67-4191-8655-85ee758877c0",
                 "style": {
                     "plugin": "default",
                     "data": {
