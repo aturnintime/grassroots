@@ -154,17 +154,23 @@ fieldset .fieldset-legend {
   padding: 0;
 }
 .l-header-inner .gr-header-block,
-.gr-logo-title,
+.gr-logo-title .gr-logo-title-link,
 .gr-phone-email {
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+}
+.fa-seedling {
+  color: #008000;
 }
 .l-header-inner .fancy-g,
 .l-header-inner .fancy-l {
   color: #008000;
   font-size: 3rem;
+  font-weight: 499;
 }
 .l-header-inner div a {
   color: #000;
@@ -175,6 +181,11 @@ fieldset .fieldset-legend {
 }
 .l-header-inner div .gr-logo-title-link:hover {
   text-decoration: none;
+}
+.gr-phone,
+.gr-email {
+  margin: 1rem;
+  font-size: 1.6rem;
 }
 .leaf {
   border: 1px solid #ccc;
