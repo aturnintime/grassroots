@@ -15,7 +15,15 @@ body {
   line-height: 1.6;
   background: #ffffff;
 }
-
+h1.page-title {
+  color: #fff;
+}
+.node-type-page .l-content {
+  background-color: #008000;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 1.4rem;
+}
 a {
   color: #0073bd;
 }
@@ -155,7 +163,8 @@ fieldset .fieldset-legend {
 }
 .l-header-inner .gr-header-block,
 .gr-logo-title .gr-logo-title-link,
-.gr-phone-email {
+.gr-phone-email,
+.gr-packages {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: row;
@@ -163,8 +172,17 @@ fieldset .fieldset-legend {
   justify-content: space-between;
   align-items: center;
 }
+.fas,
 .fa-seedling {
   color: #008000;
+}
+.fa-phone-square-alt,
+.fa-envelope-square {
+  font-size: 2rem;
+}
+.phone-subtitle,
+.email-subtitle {
+  font-size: 1rem;
 }
 .l-header-inner .fancy-g,
 .l-header-inner .fancy-l {
@@ -190,7 +208,27 @@ fieldset .fieldset-legend {
 .leaf {
   border: 1px solid #ccc;
 }
-
+.l-wrapper {
+  background-image: url('../images/grass.jpg');
+  background-repeat: repeat;
+  background-position: center center;
+}
+.content-header {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 544;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #fff;
+}
+.gr-packages div {
+  padding: 1.5rem;
+  background-color: #008000;
+  color: #fff;
+  border-radius: 9px;
+  font-size: 2.4rem;
+  opacity: 0.8;
+}
 @media (min-width: 34em) {
   .l-header-inner {
     min-height: 6.125rem;
@@ -893,17 +931,14 @@ ul.action-links a {
 
 /* Default background when hero doesn't have image */
 .block-hero-no-image {
-  background-color: #0074bd;
-  background-image: url(../images/texture.png);
+  background-image: url(../images/grass.jpg);
   background-repeat: repeat;
   background-position: center center;
-  background-blend-mode: luminosity; /* Colorizes bg image */
 }
 
 .no-background-blend-mode .block-hero-no-image:before {
   /* If we don't have blend-modes, use a more saturated version of overlay color */
   /* Semi-transparent overlay has similar effect as luminosity */
-  background: #009dff;
   opacity: 0.5;
 }
 
