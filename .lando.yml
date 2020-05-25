@@ -21,9 +21,6 @@ tooling:
   drush:
     service: appserver
     cmd: drush --root=/app/web --uri=https://grassroots.lndo.site
-  yarn:
-    service: node
-    cmd: yarn
   lighthouse:
     service: node
     cmd: /app/node_modules/.bin/lighthouse
