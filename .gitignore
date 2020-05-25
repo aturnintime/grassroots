@@ -5,3 +5,7 @@ config/active
 *.gz
 *.sql
 .env
+
+hb-html.html
+notes.md
+tst.php
